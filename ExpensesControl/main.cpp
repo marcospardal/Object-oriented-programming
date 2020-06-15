@@ -9,5 +9,5 @@ int main(void){
     control->setExpense(expense2, 1);
 
     std::cout << "The total expenses were " << control->getTotalOfExpenses() << std::endl;
-    std::cout << "Is there a laptop expense? " << (control->findExpense("new laptop") ? "yes" : "no") << std::endl;    
+    std::cout << "Is there a laptop expense? " << (control->findExpense("laptop") ? "yes" : "no") << std::endl;    
 }
