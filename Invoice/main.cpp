@@ -12,5 +12,5 @@ int main(void){
     orange->setDescription("bag of oranges");
     orange->setAmount(10);
 
-     std::cout << "First Invoice - Description: " << orange->getDescription() << "\tAmount: " << orange->getAmount() << "\tUnit price: " << orange->getPrice() << "\tFinal price: " << orange->getInvoiceAmount() << std::endl;
+    std::cout << "First Invoice - Description: " << orange->getDescription() << "\tAmount: " << orange->getAmount() << "\tUnit price: " << orange->getPrice() << "\tFinal price: " << orange->getInvoiceAmount() << std::endl;
 }
